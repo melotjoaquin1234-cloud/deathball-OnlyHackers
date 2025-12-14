@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ONLYHACKERS DEATH BALL PRO</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: url('https://wallpapercave.com/wp/wp11297842.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: #e0e0ff;
+            font-family: 'Arial', sans-serif;
+            overflow-x: hidden;
+        }
+        .overlay {
+            background: rgba(10, 0, 40, 0.85);
+            min-height: 100vh;
+            padding: 40px 0;
+        }
+        nav {
+            background: rgba(0, 0, 50, 0.8);
+            padding: 30px;
+            text-align: center;
+            box-shadow: 0 0 50px #a020f0;
+        }
+        nav a {
+            color: #ff00ff;
+            margin: 0 60px;
+            font-size: 2.2em;
+            text-decoration: none;
+            text-shadow: 0 0 20px #ff00ff;
+            transition: 0.4s;
+            cursor: pointer;
+        }
+        nav a:hover {
+            color: #00ffff;
+            text-shadow: 0 0 40px #00ffff;
+            transform: scale(1.1);
+        }
+        .container {
+            max-width: 1800px;
+            margin: 60px auto;
+            padding: 80px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        h1 {
+            font-size: 5.5em;
+            animation: rainbow 6s infinite;
+            text-shadow: 0 0 50px;
+            margin-bottom: 60px;
+        }
+        @keyframes rainbow {
+            0% { color: #ff0066; text-shadow: 0 0 50px #ff0066; }
+            20% { color: #ff6600; }
+            40% { color: #ffff00; }
+            60% { color: #00ff00; }
+            80% { color: #00ffff; }
+            100% { color: #ff00ff; }
+        }
+        .section {
+            display: none;
+            animation: fadeIn 1.5s;
+            width: 100%;
+            padding: 100px;
+            background: rgba(30, 0, 80, 0.6);
+            border-radius: 40px;
+            margin: 80px 0;
+            box-shadow: 0 0 80px #a020f0;
+        }
+        .section.active {
+            display: block;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(40px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .btn {
+            background: linear-gradient(#ff00ff, #00ffff);
+            color: #000;
+            padding: 30px 80px;
+            font-size: 2.5em;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            box-shadow: 0 0 60px #ff00ff;
+            transition: 0.5s;
+            margin: 60px;
+        }
+        .btn:hover {
+            transform: scale(1.2);
+            box-shadow: 0 0 100px #00ffff;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 40px;
+            box-shadow: 0 0 80px #ff00ff;
+            margin: 80px 0;
+            animation: float 8s infinite ease-in-out;
+        }
+        @keyframes float {
+            0% { transform: translateY(0); }
+            50% { transform: translateY(-40px); }
+            100% { transform: translateY(0); }
+        }
+        .executor {
+            font-size: 2.2em;
+            margin: 80px 0;
+            color: #ff00ff;
+            text-shadow: 0 0 30px #ff00ff;
+        }
+        .executor a {
+            color: #00ffff;
+            text-decoration: none;
+        }
+        .features {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 80px;
+            margin: 100px 0;
+        }
+        .feature-card {
+            background: rgba(80, 0, 150, 0.6);
+            padding: 60px;
+            border-radius: 40px;
+            width: 450px;
+            box-shadow: 0 0 60px #ff00ff;
+            animation: float 9s infinite ease-in-out;
+            text-align: center;
+        }
+        .feature-card h3 {
+            font-size: 2.5em;
+            color: #00ffff;
+            animation: rainbow 6s infinite;
+        }
+        .feature-card p {
+            font-size: 1.8em;
+        }
+    </style>
+</head>
+<body>
+    <div class="overlay">
+        <nav>
+            <a onclick="showSection('home')">Home</a>
+            <a onclick="showSection('script')">Script</a>
+            <a onclick="showSection('key')">Key</a>
+        </nav>
+
+        <div class="container">
+            <h1>⚽ ONLYHACKERS DEATH BALL PRO</h1>
+
+            <div id="home" class="section active">
+                <h2 style="font-size: 3.5em; color: #ff00ff;">🔥 TEAM CUÁNTICO 2025</h2>
+                <p style="font-size: 2.2em;">El secreto definitivo: Reinicio forzoso + Infinite Yield = Invencible</p>
+                <div class="features">
+                    <div class="feature-card">
+                        <h3>Respawn Forzoso + Load Infinite Yield</h3>
+                        <p>Botón principal: Reinicia + carga IY instant.</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>Preset: Speed 500 + Float</h3>
+                        <p>Copia comando para dodge perfecto.</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>Preset: Fly Only</h3>
+                        <p>Copia comando para fly rápido.</p>
+                    </div>
+                </div>
+                <img src="https://progameguides.com/wp-content/uploads/2024/05/roblox-death-ball-champions.jpg" alt="Death Ball Gameplay High Quality">
+                <img src="https://i.ytimg.com/vi/kIreTLDMcjo/maxresdefault.jpg" alt="Rayfield UI High Quality">
+                <img src="https://i.ytimg.com/vi/LxK0okJcYlE/maxresdefault.jpg" alt="Infinite Yield High Quality">
+            </div>
+
+            <div id="script" class="section">
+                <h2 style="font-size: 3.5em; color: #00ffff;">🚀 Loadstring Oculto (Copia con Botón)</h2>
+                <p style="font-size: 2em;">El código está oculto para seguridad - botón copia directo al portapapeles.</p>
+                <button class="btn" onclick="copyCode()">COPIAR LOADSTRING OCULTO</button>
+                <p class="executor">Executor recomendado: <a href="https://xeno.onl" target="_blank">xeno.onl</a></p>
+            </div>
+
+            <div id="key" class="section">
+                <h2 style="font-size: 3.5em; color: #ff00ff;">🔑 Contraseña Exclusiva</h2>
+                <p style="font-size: 2.5em;"><strong>ONLYHACKERS</strong> (elite TEAM)</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Código oculto (no visible, pero copia funciona) -->
+    <pre style="display: none;" id="hiddenCode">
+-- MENU RAYFIELD DEATH BALL REINICIO + IY | ONLYHACKERS (Respawn + Infinite Yield 2025)
+local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
+local Players = game:GetService("Players")
+local LP = Players.LocalPlayer
+local function LoadIY()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
+end
+local function ForceRespawn()
+    local character = LP.Character
+    if character and character:FindFirstChild("Humanoid") then
+        character.Humanoid.Health = 0
+    end
+end
+local function RespawnAndIY()
+    ForceRespawn()
+    wait(3)
+    LoadIY()
+end
+local Window = Rayfield:CreateWindow({
+    Name = "⚽ DEATH BALL REINICIO + IY PRO",
+    LoadingTitle = "Loading Respawn Trick...",
+    LoadingSubtitle = "ONLYHACKERS | 2025 Secret",
+    ConfigurationSaving = {Enabled = true, FolderName = "DeathBallRespawnIY", FileName = "IYConfig"},
+    KeySystem = true,
+    KeySettings = {
+        Title = "ONLYHACKERS ACCESS",
+        Subtitle = "Respawn IY Exclusive",
+        Note = "Enter password for Death Ball OP",
+        FileName = "RespawnIYKey",
+        SaveKey = true,
+        GrabKeyFromSite = false,
+        Key = "ONLYHACKERS"
+    }
+})
+local MainTab = Window:CreateTab("Respawn + IY ⚡", 4483362458)
+MainTab:CreateButton({
+    Name = "Respawn Forzoso + Load Infinite Yield",
+    Callback = function()
+        RespawnAndIY()
+        Rayfield:Notify({Title = "RESPAWN + IY LOADED", Content = "Usa ;speed 500, ;float, ;fly", Duration = 8})
+    end
+})
+MainTab:CreateButton({
+    Name = "Preset: Speed 500 + Float",
+    Callback = function()
+        Rayfield:Notify({Title = "PRESET", Content = "Copia: ;speed 500 ;float", Duration = 6})
+    end
+})
+MainTab:CreateButton({
+    Name = "Preset: Fly Only",
+    Callback = function()
+        Rayfield:Notify({Title = "PRESET", Content = "Copia: ;fly", Duration = 6})
+    end
+})
+Rayfield:LoadConfiguration()
+    </pre>
+
+    <script>
+        function showSection(sectionId) {
+            const sections = document.querySelectorAll('.section');
+            sections.forEach(sec => sec.classList.remove('active'));
+            document.getElementById(sectionId).classList.add('active');
+        }
+
+        function copyCode() {
+            const code = document.getElementById("hiddenCode").innerText;
+            navigator.clipboard.writeText(code);
+            alert("¡Loadstring oculto copiado! Pégalo en executor.");
+        }
+    </script>
+</body>
+</html>
